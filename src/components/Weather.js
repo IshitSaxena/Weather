@@ -563,7 +563,7 @@ export default function Weather() {
             <div className="row justify-content-between">
               <div className="col-xl-8 col-lg-6 mb-lg-0 mb-4">
                 <div className="text">
-                  <h5 className="fw-4 fs-23">Weather and Forecast </h5>
+                  <h5 className="fw-4 fs-23">Weather & Forecast </h5>
                   <h2 className="fw-4 lh-120">Daily Weather Forecast <br /> Update News</h2>
                   <p className="fs-19 fw-5 lh-150 bottom-space pt-0">Get the latest weather forecast for today with up-to-date <br /> information on temperature, precipitation, and more.</p>
                   <div className="col-xl-9">

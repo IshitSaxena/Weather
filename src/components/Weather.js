@@ -413,7 +413,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./weather.css";
-import bgrd from '../images/bgrd.jpg';
+import backgrd from '../images/backgrd.png';
 import Header from "./Header";
 import HourlySection from "./HourlySection";
 import TodayWeatherDetails from "./TodayWeatherDetails";
@@ -544,7 +544,7 @@ export default function Weather() {
       <Header />
       <section id="home" className="weather-banner-2"
         style={{
-          backgroundImage: `url(${bgrd})`,
+          backgroundImage: `url(${backgrd})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

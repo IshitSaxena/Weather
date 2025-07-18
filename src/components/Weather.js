@@ -527,7 +527,7 @@ export default function Weather() {
       case "clear":
         return "sun.png";
       case "cloud":
-        return "cloudy.png";
+        return "clouds.png";
       case "rain":
         return "rain.png";
       case "snow":

@@ -1,0 +1,23 @@
+/* light mode */
+body.light-theme {
+  background-color: #7dcefd;
+  color: #212529;
+}
+
+/* dark mode */
+body.dark-theme {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+body.dark-theme .navbar {
+  background-color: #1f1f1f;
+}
+
+body.light-theme .navbar {
+ background: linear-gradient(135deg, rgb(20 6 100 / 94%), #bf9e5f);
+}

@@ -1,0 +1,31 @@
+.global .content {
+    display: block;
+    padding: 48px 0;
+    background-color: #F0F5FF;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+    transition: all 0.5s ease-in-out;
+}
+a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: underline;
+}
+
+section#global {
+    background: linear-gradient(135deg, rgb(13, 4, 65), #4a90e2);
+    padding: 65px 0px;
+}
+
+.globalSec-heading{
+    color: #ffff;
+}
+.globalSec-text {
+    color: #ffff;
+}

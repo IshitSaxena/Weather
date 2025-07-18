@@ -1,0 +1,220 @@
+
+
+.wea_recent_search {
+    position: relative;
+    padding: 80px 0 80px;
+    background-color: #4380cdd1;
+    padding: 65px 0px;
+}
+
+.wea_heading_wrapper.wea_banner_rechead {
+    align-items: flex-start;
+    padding: 80px 0 0 250px;
+}
+.wea_heading_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 50px;
+}
+
+.swiper-pointer-events {
+    touch-action: pan-y;
+}
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+@media (min-width: 992px) {
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+}
+
+.wea_recent_search {
+  position: relative;
+  padding: 80px 0;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+}
+
+.wea_heading_wrapper.wea_banner_rechead {
+  align-items: flex-start;
+  padding: 0 0 30px 60px;
+}
+
+.wea_heading_wrapper h3 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.wea_heading_wrapper p {
+  color: #f2f2f2;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.wea_recent_slider {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wea_recent_slider:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.wea_recent_slider img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.wea_rec_text {
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.wea_rec_text h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.wea_rec_text_hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.weather-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.wea_rec_text_hover h4 {
+  font-size: 1.8rem;
+  margin: 0;
+  color: #111;
+}
+
+.wea_rec_text_hover p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.swiper {
+  padding-bottom: 30px;
+}
+
+/* Responsive Padding */
+@media (max-width: 768px) {
+  .wea_heading_wrapper.wea_banner_rechead {
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .wea_heading_wrapper h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Weather-based background glow */
+.sunny {
+  box-shadow: 0 0 10px 4px rgba(255, 223, 0, 0.4);
+}
+
+.cloudy {
+  box-shadow: 0 0 10px 4px rgba(200, 200, 200, 0.3);
+}
+
+.rain {
+  box-shadow: 0 0 10px 4px rgba(0, 119, 182, 0.4);
+}
+
+.snowy {
+  box-shadow: 0 0 10px 4px rgba(173, 216, 230, 0.5);
+}
+
+.stormy {
+  box-shadow: 0 0 10px 4px rgba(64, 64, 122, 0.5);
+}
+
+.foggy {
+  box-shadow: 0 0 10px 4px rgba(169, 169, 169, 0.3);
+}
+
+.drizzle {
+  box-shadow: 0 0 10px 4px rgba(153, 204, 255, 0.3);
+}
+
+.wea_recent_slider:hover::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.15), transparent);
+  animation: pulseGlow 1.6s infinite;
+}
+
+@keyframes pulseGlow {
+  0% { transform: scale(1); opacity: 0.7; }
+  50% { transform: scale(1.05); opacity: 0.2; }
+  100% { transform: scale(1); opacity: 0.7; }
+}

@@ -1,0 +1,10 @@
+section.temperature-chart-section.pt-100 {
+    background: linear-gradient(135deg, rgb(173 97 175), #4a90e2);
+    padding: 65px 0px 60px 0px;
+}
+
+.chart {
+    background-color: white;
+    padding: 30px;
+    border-radius: 6px;
+}

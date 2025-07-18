@@ -15,7 +15,7 @@ body{
 }
 
 .weather-banner-2 .content .text h2 {
-  font-size: 69px;
+  font-size: 60px;
   color: #252222;
   margin-bottom: 20px;
 }
@@ -259,7 +259,7 @@ textarea {
 }
 
 .mainWeatherDetails {
-  display: flex;
+
 }
 
 .Weather .maincard {
@@ -337,7 +337,7 @@ h4 {
 }
 
 td {
-  border-bottom: 2px dashed grey;
+    border-bottom: 2px solid #0e111285;
 }
 
 .Weather .weatherdetails span {

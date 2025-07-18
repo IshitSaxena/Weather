@@ -367,7 +367,7 @@ const HourlySection = ({ data, recentCitiesData, city }) => {
   return (
     <section id="hourly" className="hourly pt-100">
       <div className="container">
-        <div className="title text-center mb-4">
+        <div className=".globalSec-heading  text-center">
           <h2>Hourly Update - {currentCity}</h2>
         </div>
 

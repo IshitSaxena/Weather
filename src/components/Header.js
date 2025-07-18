@@ -22,7 +22,7 @@ export default function Header() {
     <header className="header">
         <nav className="navbar navbar-expand-lg">
           <a className="navbar-brand" href="#">
-            <img alt="logo" src={isDark ? "/icons/logo.png" : "/icns/logo.png"} />
+            <img alt="logo" src={isDark ? "/icons/logo.png" : "/icons/logo.png"} />
           </a>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">

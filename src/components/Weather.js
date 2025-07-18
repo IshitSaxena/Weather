@@ -413,7 +413,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./weather.css";
-import bgrd from '../images/bgrd.png';
+import bgrd from '../images/bgrd.jpg';
 import Header from "./Header";
 import HourlySection from "./HourlySection";
 import TodayWeatherDetails from "./TodayWeatherDetails";

@@ -12,6 +12,7 @@ body.dark-theme {
 
 .navbar {
   transition: background-color 0.3s ease;
+  padding: 15px 20px;
 }
 
 body.dark-theme .navbar {
@@ -20,4 +21,10 @@ body.dark-theme .navbar {
 
 body.light-theme .navbar {
  background: linear-gradient(135deg, rgb(20 6 100 / 94%), #bf9e5f);
+}
+
+.logo{
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
 }
